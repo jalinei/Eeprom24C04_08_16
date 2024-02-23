@@ -1,0 +1,42 @@
+{
+    "name": "EEPROM24C04",
+    "version": "0.0.1",
+    "description": "A library that deals with 24C04 EEPROM",
+    "keywords": "EEPROM, Memory, Arduino",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/jalinei/Eeprom24C04_08_16.git"
+    },
+    "authors":
+    [
+        {
+            "name": "Jean Alinei",
+            "email": "jean.alinei@owntech.org",
+            "maintainer": true
+        },
+    ],
+    "examples": [
+    {
+        "name": "WriteReadByte",
+        "title": "WriteReadByte",
+        "description": "Write and read one byte",
+        "base": "examples/",
+        "files": [
+            "WriteReadByte.ino",
+        ]
+    },
+    {
+        "name": "WriteReadBytes",
+        "title": "WriteReadBytes",
+        "description": "Write and read multiple bytes",
+        "base": "TWIST/DC_DC/buck_voltage_mode",
+        "files": [
+            "WriteReadBytes.ino",
+        ]
+    },
+    ],
+    "license": "LGPL-3.0",
+    "frameworks": ["arduino"],
+    "platforms": ["ststm32"]
+}
