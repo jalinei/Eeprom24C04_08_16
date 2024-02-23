@@ -23,16 +23,16 @@
         "description": "Write and read one byte",
         "base": "examples/",
         "files": [
-            "WriteReadByte.ino",
+            "WriteReadByte.ino"
         ]
     },
     {
         "name": "WriteReadBytes",
         "title": "WriteReadBytes",
         "description": "Write and read multiple bytes",
-        "base": "TWIST/DC_DC/buck_voltage_mode",
+        "base": "examples/,
         "files": [
-            "WriteReadBytes.ino",
+            "WriteReadBytes.ino"
         ]
     },
     ],
