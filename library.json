@@ -14,7 +14,7 @@
             "name": "Jean Alinei",
             "email": "jean.alinei@owntech.org",
             "maintainer": true
-        },
+        }
     ],
     "examples": [
     {
@@ -30,11 +30,11 @@
         "name": "WriteReadBytes",
         "title": "WriteReadBytes",
         "description": "Write and read multiple bytes",
-        "base": "examples/,
+        "base": "examples/",
         "files": [
             "WriteReadBytes.ino"
         ]
-    },
+    }
     ],
     "license": "LGPL-3.0",
     "frameworks": ["arduino"],
